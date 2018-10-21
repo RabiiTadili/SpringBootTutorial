@@ -22,3 +22,11 @@
 2018-10-21 12:48:31.402  INFO 6512 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
 2018-10-21 12:48:31.434  INFO 6512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2018-10-21 12:48:31.438  INFO 6512 --- [main] com.rabii.demo.DemoApplication           : Started DemoApplication in 1.6 seconds (JVM running for 2.408)
+2018-10-21 16:18:32.480  INFO 6512 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-10-21 16:18:32.485  INFO 6512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-10-21 16:18:32.515  INFO 6512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms
+2018-10-21 16:18:32.543  INFO 6512 --- [http-nio-8080-exec-1] ication$$EnhancerBySpringCGLIB$$e7282a25 : This is an info message
+2018-10-21 16:26:14.802  INFO 6512 --- [http-nio-8080-exec-5] ication$$EnhancerBySpringCGLIB$$e7282a25 : This is an info message
+2018-10-21 16:29:17.983  INFO 6512 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-10-21 16:29:17.991  INFO 6512 --- [RMI TCP Connection(2)-127.0.0.1] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5dd6264: startup date [Sun Oct 21 12:48:30 WEST 2018]; root of context hierarchy
+2018-10-21 16:29:17.992  INFO 6512 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
